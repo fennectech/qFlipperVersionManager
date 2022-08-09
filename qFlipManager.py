@@ -4,7 +4,8 @@ import os
 import json
 
 def start(filename):
-	os.system("sudo ./"+filename)
+	os.system("./"+filename)
+	
 url = 'https://update.flipperzero.one/qFlipper/directory.json'
 request = get(url)
 data = dict(request.json())
