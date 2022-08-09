@@ -14,7 +14,7 @@ filename = link.split("/")[-1]
 
 if not os.path.exists(filename):
 	print("New version available")
-	print("Deleting previous version"...)
+	print("Deleting previous version...")
 	os.system("rm ./*.AppImage")
 	print("Downloading...")
 	wget.download(link, filename)
